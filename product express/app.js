@@ -8,7 +8,8 @@ app.use(cors());
 app.use(express.json());
 
 //let url = "mongodb://localhost:27017/projectinfo";
-let url = "mongodb://3.87.185.190:27017/projectinfo";
+//let url = "mongodb://3.87.185.190:27017/projectinfo";
+let url="mongodb://parnapmehta@gmail.com:HERtech123@3.87.185.190:27017/projectinfo";
 
 mongoose.connect(url);
 
